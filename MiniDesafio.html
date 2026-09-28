@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio / Currículo Web</title>
+</head>
+<body>
+    <h1>Giulia Hernandes</h1>
+    <ul style="list-style-type: circle;">
+        <li><a href="Sobre mim">Sobre</a></li>
+        <li><a href="Meus Projetos">Projetos</a></li>
+        <li><a href="Entre em Contato">Contato</a></li>
+    </ul>
+    <hr>
+
+    <h2>Sobre mim</h2>
+    <img src="assets/GiuliaLinda.jpg" width="150" heigh="100">
+    <p>Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI</p>
+    <p>Tenho conhecimento em <em>HTML, CSS</em> e estou aprendendo <em>JavaScript</em></p>
+
+    <h3>Minhas Habilidades:</h3>
+     <ul style="list-style-type: circle;">
+        <li>HTML5 Semântico</li>
+        <li>CSS3 e Responsividade</li>
+        <li>Formulários e Validação</li>
+        <li>Estrutura de Dados</li>
+    </ul>
+    <hr>
+
+    <h2></h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Projeto</th>
+                <th>Tecnologias</th>
+                <th>Status</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+    <tr>
+        <td>Site Jogos Retrô</td>
+        <td>HTML</td>
+        <td>Concluído</td>
+        <td><a href="https://github.com/giuliahernandes1/Retro_Games">Ver Projeto</a></td>
+    </tr>
+    <tr>
+        <td>Verificador de maioridade</td>
+        <td>HTML, PHP</td>
+        <td>Concluído</td>
+        <td><a href="https://github.com/giuliahernandes1/Desafio1-Verificador-de-Maioridade">Ver Projeto</a></td>
+    </tr>
+    <tr>
+        <td>Informações Filmes em Cartaz</td>
+        <td>HTML</td>
+        <td>Concluído</td>
+        <td><a href="https://github.com/giuliahernandes1/ProjetoFilme">Ver Projeto</a></td>
+    </tr>
+ </table>
+ <hr>
+
+ <form action="processar.php" method="post">
+    <fieldset>
+        <legend>Dados de Contato</legend>
+
+        <label for="nome">Nome completo:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto">
+            <option value="oportunidades">Oportunidade de Trabalho</option>
+            <option value="duvidas">Dúvidas sobre serviços</option>
+            <option value="sugestoes">Sugestões ou elogios</option>
+            <option value="reclamacao">Reclamações</option>
+        </select><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+           <textarea name="mensagem" id="mensagem" rows="5" cols="40" placeholder=""></textarea>br
+           <br>
+           <input type="submit" value="Enviar mensagem">
+    </fieldset>
+</form>
+
+<p>&copy; 2026 Meta. Desenvolvido durante o curso do SENAI</p>
+<hr>
+
+<a href="mailto:giulia.peixoto@gmail.com">giulia.peixoto@gmail.com</a> | <a href="">(11)09876-3268</a>
+
+</body>
+</html>
